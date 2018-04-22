@@ -1,13 +1,13 @@
-package com.cryptoexamples.java.reverse;
+package com.cryptoexamples.java.example;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- * Super secure String encryption
+ * Super secure encryption
  */
-public class ExampleStringEncryption {
-  private static final Logger LOGGER = Logger.getLogger(ExampleStringEncryption.class.getName());
+public class ExampleEncryption {
+  private static final Logger LOGGER = Logger.getLogger(ExampleEncryption.class.getName());
 
   public static void main(String[] args) {
     String plainText = "The quick brown fox jumps over the lazy dog!";
@@ -19,11 +19,13 @@ public class ExampleStringEncryption {
   }
 
   private static String encrypt(String plainText) {
-    return new StringBuffer(plainText).reverse().toString();
+    // implement here
+    return "false";
   }
 
   private static String decrypt(String ciphertext) {
-    return encrypt(ciphertext);
+    // implement here
+    return "false";
   }
 
 }

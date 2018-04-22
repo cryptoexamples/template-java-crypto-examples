@@ -1,4 +1,4 @@
-package com.cryptoexamples.java.reverse;
+package com.cryptoexamples.java.example;
 
 import org.junit.*;
 
@@ -9,9 +9,9 @@ import static org.hamcrest.CoreMatchers.containsString;
 import static org.junit.Assert.assertThat;
 
 /**
- * Test cases for the reverse examples/template
+ * Test cases for the example examples/template
  */
-public class StringEncryptionTests {
+public class ExampleEncryptionTests {
   private static final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
   private static final ByteArrayOutputStream errContent = new ByteArrayOutputStream();
 
@@ -35,7 +35,7 @@ public class StringEncryptionTests {
 
   @Test
   public void testStringEncryptionMain() {
-    ExampleStringEncryption.main(new String[1]);
+    ExampleEncryption.main(new String[1]);
     assertThat(errContent.toString(), containsString("Decrypted and original plain text are the same: true"));
   }
 
