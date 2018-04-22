@@ -1,7 +1,12 @@
-# template-java-crypto-examples for [cryptoexamples.com](http://cryptoexamples.com)
+# template-java-crypto-examples for [CryptoExamples.com](http://cryptoexamples.com)
 
-Template project for [crypto-examples](https://github.com/kmindi/crypto-examples)
+Template project for [CryptoExamples](https://github.com/kmindi/crypto-examples)
 
+## Usage
+
+- [ ] Implementation with Tests (see src/)
+- [ ] Documentation in Markdown-Files (see \*.md)
+- [ ] Create Issue in [CryptoExamples](https://github.com/kmindi/crypto-examples) repo
 
 ## License
 
