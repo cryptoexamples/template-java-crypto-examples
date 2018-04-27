@@ -20,6 +20,14 @@ When a code example was changed, the the rule is, that not only the changes shou
 
 Once all reviewers have completed these steps merge the branch into master.
 
+## Experts
+
+To become an expert you have to fulfil the following criteria:
+
+1. Be an security expert
+1. Have good knowledge about the corresponding programming language and crypto library
+1. Get you GNuPG key signed by the project owner
+
 ## License
 
 [The Unlicense](LICENSE).
