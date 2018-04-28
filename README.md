@@ -8,36 +8,6 @@ Template project for [CryptoExamples](https://github.com/kmindi/crypto-examples)
 - [ ] Documentation in Markdown-Files (see \*.md)
 - [ ] Create Issue in [CryptoExamples](https://github.com/kmindi/crypto-examples) repo
 
-## Review Process
-
-When a code example was changed, the the rule is, that not only the changes should be reviewed, but the whole example must be reviewed. The semantic of a signed commit is, that all changed examples in the corresponding branch have been reviewed by the expert. To sign and finish the review all experts who reviewed the pull request must do the following:
-
-1. Locally checkout and pull the branch
-1. Fill out the `current_review` section in the jekyll front matter:
-```
-    {
-        name: "Your Name",
-        # Link to a site about you.
-        url: "https://github.com/master-security",
-        # Link the current commit (HEAD) here.
-        reviewed_commit: "https://github.com/kmindi/CryptoExamples/commit/6fa03d7a38c06ac69ce639a503fa947a99c3d168"
-    },
-```
-3. Create an empty and signed commit
-1. Push your commit to GitHub
-
-`git commit --allow-empty --gpg-sign=12345678 # replace "12345678" by your GnuPG fingerprint`
-
-Once all reviewers have completed these steps merge the branch into master.
-
-## Experts
-
-To become an expert you have to fulfil the following criteria:
-
-1. Be an security expert
-1. Have good knowledge about the corresponding programming language and crypto library
-1. Get you GNuPG key signed by the project owner
-
 ## License
 
 [The Unlicense](LICENSE).
