@@ -11,27 +11,28 @@ references: [
         description: "JavaDoc API"
     }
 ]
-last_updated: "2018-04-21"
 authors: [
     {
         name: "John Doe",
         url: "https://example.com"
     }
 ]
-# List all reviewers which reviewed the example's last version. When the example is updated all old reviews
-# must be removed from the list below and the code has to be reviewed completely. The complete review prozess
-# is documented in the  README.md and must be followed.
+# List all reviewers that reviewed this version of the example. When the example is updated all old reviews
+# must be removed from the list below and the code has to be reviewed again. The complete review process
+# is documented in the main repository of CryptoExamples
 current_reviews: [
     {
         name: "John Doe",
-        url: "https://github.com/master-security",
-        reviewed_commit: "https://github.com/kmindi/CryptoExamples/commit/6fa03d7a38c06ac69ce639a503fa947a99c3d168"
+        url: "https://github.com/your-github-username",
+        reviewed_commit: "https://github.com/cryptoexamples/CryptoExamples/commit/6fa03d7a38c06ac69ce639a503fa947a99c3d168"
     }, {
         name: "John Doe",
-        url: "https://github.com/master-security2",
-        reviewed_commit: "https://github.com/kmindi/CryptoExamples/commit/497ea81805ce9e14e1005171c3a6df444a5aa2e3"
+        url: "https://github.com/your-github-username",
+        reviewed_commit: "https://github.com/cryptoexamples/CryptoExamples/commit/497ea81805ce9e14e1005171c3a6df444a5aa2e3"
     }
  ]
+# Indicates when this example was last updated/created. Reviews don't change this.
+last_updated: "2018-04-21"
 tags: [Java, Example, Template]
 ---
 
