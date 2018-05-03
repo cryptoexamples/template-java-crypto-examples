@@ -1,4 +1,4 @@
-# template-java-crypto-examples for [CryptoExamples.com](http://cryptoexamples.com)
+# template-java-crypto-examples for [CryptoExamples.com](https://www.cryptoexamples.com)
 
 Template project for [CryptoExamples](https://github.com/kmindi/crypto-examples)
 
